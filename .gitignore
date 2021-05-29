@@ -1,0 +1,5 @@
+# exe
+/go-gateway
+
+# proto
+*.pb.go

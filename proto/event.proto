@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "github.com/hokkung/go-gateway/proto";
+
+message Message {
+	google.protobuf.Timestamp timestamp = 1;
+	string message = 2;
+}
