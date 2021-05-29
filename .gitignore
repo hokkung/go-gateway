@@ -1,5 +1,7 @@
-# exe
 /go-gateway
+
+# exe
+*.exe
 
 # proto
 *.pb.go
