@@ -7,4 +7,4 @@ test: generate
 	go test -tag=test
 
 build: generate
-	go build 
+	go build $(BUILDFLAGS)
